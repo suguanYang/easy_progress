@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@swc/core": "^1.0.25",
-    "eslint": "^5.14.1",
-    "mocha": "^6.0.1"
+    "eslint": "^5.14.1"
   },
   "dependencies": {
+    "jest": "^24.1.0"
   }
 }
